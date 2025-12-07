@@ -1,0 +1,53 @@
+# Compiled Java class files
+*.class
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Dataset + Modèles ML (gros fichiers)
+dataset/
+dataset_processed
+model_bonbons.zip
+*.h5
+*.zip
+
+# Images source (dataset)
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
