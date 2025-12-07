@@ -1,4 +1,5 @@
 # Reconnaissance Bonbons IA (Deep Learning)
+Attention : ce projet est en cours.
 
 **Modèle DL pour reconnaître 18 types de bonbons Haribo sur photos, développé en Java 11 LTS avec DeepLearning4J dans le cadre du cours Intelligence Artificielle à Grenoble INP-ESISAR.** Classification multi-classe (Dragibus, Schtroumpf, Crocodile, Ourson...) avec dataset augmenté. [![Licence MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -14,7 +15,7 @@
 - [Licence](#licence)
 
 ## À propos
-**Projet Deep Learning du cours IA Grenoble INP-ESISAR** : Modèle CNN entraîné pour classifier **18 variétés de bonbons Haribo** sur images 128x128px. Pipeline complet : **prétraitement + data augmentation** (rotations, symétries) + entraînement + évaluation. Modèle sauvegardé : `model_bonbons.zip`.
+**Projet Deep Learning du cours IA Grenoble INP-ESISAR** : Modèle CNN entraîné pour classifier **19 variétés de bonbons Haribo** sur images 128x128px. Pipeline complet : **prétraitement + data augmentation** (rotations, symétries) + entraînement + évaluation. Modèle sauvegardé : `model_bonbons.zip`.
 
 ## Bonbons reconnus
 | Famille | Variétés |
@@ -46,7 +47,7 @@ mvn clean install
 ## Utilisation
 
 ### 1. Entraînement complet
-1. Ouvre dans **VSCode** ou **Eclipse**
+1. Ouvrir dans **VSCode** ou **Eclipse**
 2. Lance le fichier principal :
 ```
 src/main/java/com/acs/Main.java
@@ -98,7 +99,7 @@ Confusion matrix format: Actual (rowClass) predicted as (columnClass) N times
 ```
 
 ### 2. Prédiction sur nouvelle image ⭐
-**Après entraînement**, lance :
+**Après entraînement**, lancer :
 src/main/java/com/acs/Predict.java
 
 **Fonctionnement** :

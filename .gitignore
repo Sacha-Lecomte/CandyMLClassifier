@@ -22,8 +22,6 @@ dependency-reduced-pom.xml
 *.rar
 
 # Dataset + Modèles ML (gros fichiers)
-dataset/
-dataset_processed
 model_bonbons.zip
 *.h5
 *.zip
